@@ -39,15 +39,15 @@ sudo make install
 # Compile & install Paner
 cd ~/src/sutils/
 make
-make install
+sudo make install
 
 cd ~/src/xtitle/
 make
-make install
+sudo make install
 
 cd ~/src/bar/
 make
-make install
+sudo make install
 
 # Copy default configuration
 mkdir -p ~/.config/bspwm/
